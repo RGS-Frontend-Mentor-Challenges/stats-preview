@@ -1,0 +1,103 @@
+@import url(https://fonts.google.com/specimen/Lexend+Deca);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+    font-family: sans-serif;
+}
+
+.elementMargin {
+    margin: 5%;
+}
+
+body {
+    background-color: hsl(233, 47%, 7%);
+    color: white;
+    font-size: 15px;
+    font-family: Lexend Deca;
+    text-align: center;
+}
+
+.main {
+    margin: 10% auto;
+    width: 375px;
+    height: 650px;
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 10px;
+}
+
+.mobilePic {
+    width: 375px;
+    border-radius: 10px 10px 0 0;
+}
+
+.mainSpan {
+    color: hsl(277, 64%, 61%);
+}
+
+.parag {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+li {
+    list-style-type: none;
+}
+
+li span {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+li p {
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+.deskPic {
+    display: none;
+}
+
+@media screen and (min-width: 600px) {
+
+    .main {
+        width: 1090px;
+        height: 445px;
+        display: flex;
+        margin: 10% auto;
+        background-color: hsl(244, 38%, 16%);
+        border-radius: 10px;
+    }
+
+    .mainTitle {
+        font-size: 35px;
+        font-family: Lexend Deca;
+        text-align: center;
+    }
+
+    .parag {
+        font-size: 15px;
+    }
+
+    .deskView {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mobilePic {
+        display: none;
+    }
+
+    .deskPic {
+        display: block;
+        width: 890px;
+        height: 445px;
+        background-image: url(./images/image-header-desktop.jpg);
+        border-radius: 0 10px 10px 0;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
