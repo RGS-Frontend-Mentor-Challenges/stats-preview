@@ -1,4 +1,4 @@
-@import url(https://fonts.google.com/specimen/Lexend+Deca);
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
 
 * {
     box-sizing: border-box;
@@ -29,7 +29,11 @@ body {
 
 .mobilePic {
     width: 375px;
+    height: 300px;
     border-radius: 10px 10px 0 0;
+    background-image: url(./images/image-header-mobile.jpg);
+    background-color: hsla(276, 60%, 61%, 1);
+    background-blend-mode: overlay;
 }
 
 .mainSpan {
@@ -91,8 +95,8 @@ li p {
         display: block;
         width: 890px;
         height: 445px;
-        background-image: url(./images/image-header-desktop.jpg);
-        border-radius: 0 10px 10px 0;
+        background-blend-mode: overlay;
+        background: hsla(276, 60%, 61%, 1) url(/images/image-header-desktop.jpg);
     }
 
     ul {
