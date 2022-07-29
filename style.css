@@ -64,7 +64,7 @@ li p {
 @media screen and (min-width: 600px) {
 
     .main {
-        width: 1090px;
+        width: 1045px;
         height: 445px;
         display: flex;
         margin: 10% auto;
