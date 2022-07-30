@@ -87,17 +87,19 @@ li p {
         flex-direction: column;
     }
 
-    .mobilePic {
-        display: none;
-    }
-
     .deskPic {
         display: block;
         width: 890px;
         height: 445px;
         background-blend-mode: overlay;
-        background: hsla(276, 60%, 61%, 1) url(/images/image-header-desktop.jpg);
+        background-color: hsla(276, 60%, 61%, 1);
+        background-image: url(/images/image-header-desktop.jpg);
     }
+
+    .mobilePic {
+        display: none;
+    }
+
 
     ul {
         display: flex;
