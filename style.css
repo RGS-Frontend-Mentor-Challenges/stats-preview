@@ -91,8 +91,8 @@ li p {
         display: block;
         width: 890px;
         height: 445px;
-        background-color: hsla(276, 60%, 61%, 1);
         background-image: url(/images/image-header-desktop.jpg);
+        background-color: hsla(276, 60%, 61%, 1);
         background-blend-mode: overlay;
     }
 
