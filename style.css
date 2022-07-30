@@ -91,9 +91,9 @@ li p {
         display: block;
         width: 890px;
         height: 445px;
-        background-blend-mode: overlay;
         background-color: hsla(276, 60%, 61%, 1);
         background-image: url(/images/image-header-desktop.jpg);
+        background-blend-mode: overlay;
     }
 
     .mobilePic {
