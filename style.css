@@ -65,11 +65,21 @@ li p {
 
     .main {
         width: 1045px;
+        max-width: 1045px;
         height: 445px;
         display: flex;
         margin: 10% auto;
         background-color: hsl(244, 38%, 16%);
         border-radius: 10px;
+    }
+
+    .deskPic {
+        display: inline-block;
+        width: 890px;
+        height: 445px;
+        background-image: url(/images/image-header-desktop.jpg);
+        background-color: hsla(276, 60%, 61%, 1);
+        background-blend-mode: overlay;
     }
 
     .mainTitle {
