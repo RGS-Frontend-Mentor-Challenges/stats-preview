@@ -71,6 +71,7 @@ li p {
         margin: 10% auto;
         background-color: hsl(244, 38%, 16%);
         border-radius: 10px;
+        align-items: center;
     }
 
     .deskPic {
